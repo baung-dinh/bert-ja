@@ -2,8 +2,8 @@
 
 pip install -r requirements.txt
 
-#Run pretrain
+# Run pretrain
 python preprocess.python
 
-#Run Train
+# Run Train
 python train.py
