@@ -2,7 +2,7 @@ train_test_ratio = 0.10
 train_valid_ratio = 0.80
 
 first_n_words = 200
-raw_data_path = 'data/news.csv'
+raw_data_path = 'data/dataset.csv'
 destination_folder = 'data'
 
 import pandas as pd
