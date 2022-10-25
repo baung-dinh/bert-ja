@@ -76,9 +76,7 @@ RUN pip --no-cache-dir install \
     seaborn \
     opencv-python \
     graphviz \
-    gpustat \
-    fugashi \
-    ipadic
+    gpustat
 
 # Install python modules.
 COPY ./requirements.txt /requirements.txt
