@@ -12,7 +12,7 @@ docker run -it --rm -v %cd%:/work -p 5000:5000 bert-ja-1.0
 pip install -r requirements.txt
 
 # Run pretrain
-python preprocess.python
+python preprocess.py
 
 # Run Train
 python train.py
